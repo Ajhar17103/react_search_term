@@ -5,7 +5,7 @@ function Search() {
   const [searchTerm, setSearchTerm] = useState('')
 
   useEffect(()=>{
-    axios.get("https://shop.hoolo.live/api/allproducts")
+    axios.get("abc")
     .then(res=>{
       setProduct(res.data)
     })
